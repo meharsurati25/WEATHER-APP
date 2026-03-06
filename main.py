@@ -3,7 +3,7 @@ from weather import fetch_weather
 
 window = tk.Tk()
 window.title("Weather App")
-window.geometry("300x200")
+window.geometry("400x300")
 
 city_label = tk.Label(window, text="Enter City")
 city_label.pack()
